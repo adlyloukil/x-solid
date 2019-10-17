@@ -6,4 +6,5 @@ Refer to the [issues](https://github.com/adlyloukil/x-solid/issues) tab for deta
 ![Humble Beginnings](https://user-images.githubusercontent.com/22683645/67034729-212ed980-f110-11e9-9817-ecdea389227a.png)
 
 ## Current PR
-![Current PR](https://user-images.githubusercontent.com/22683645/67042992-ef723e80-f120-11e9-9014-6b04f0c29f23.png)
+![current](https://user-images.githubusercontent.com/22683645/67045898-1895cd80-f127-11e9-81fb-be7d11821a62.png)
+
