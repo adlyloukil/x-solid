@@ -36,6 +36,10 @@ a{
     justify-content: space-around;
 }
 
+.image-caption-container {
+    width: 100%;
+}
+
 img {
     width: 400px;
     margin: 10px;
