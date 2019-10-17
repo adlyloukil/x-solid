@@ -31,12 +31,20 @@ a{
 
 /* Image container */
 .image-container{
+    text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 img {
     width: 400px;
+    margin: 10px;
+}
+
+#infinity{
+    color: white;
+    font-size: 5em;
+    align-self: center;
 }
 
 /* footer  */
