@@ -16,6 +16,7 @@ html, body {
     margin: 0;
     height: 100%;
     overflow: hidden;
+    
 }
 
 h1 {
@@ -36,11 +37,14 @@ a{
 .image-container{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .image-caption-container {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 img {
@@ -62,9 +66,19 @@ img {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+    
   }
 
   /* hiding audio, you can autoplay it */
   .lvlUp {
       opacity: 0;
   }
+
+  @media (max-width: 1064px) {
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
