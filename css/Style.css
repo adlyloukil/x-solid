@@ -7,12 +7,15 @@ html, body {
     background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
 .container{
     padding: 0;
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 h1 {
@@ -59,4 +62,9 @@ img {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+  }
+
+  /* hiding audio, you can autoplay it */
+  .lvlUp {
+      opacity: 0;
   }
