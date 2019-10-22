@@ -8,19 +8,21 @@ html, body {
     background: linear-gradient(to bottom, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-.container{
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-}
+/*.container{*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+/*}*/
 
 h1 {
     color: white;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 p {
     font-family: 'Montserrat';
@@ -57,7 +59,7 @@ img {
 /* footer  */
 .footer {
     width: 100%;
-    height: 50px;
+    /*height: 50px;*/
     padding: 20px;
     text-align: center;
     background: #ddd;
@@ -67,4 +69,24 @@ img {
   /* hiding audio, you can autoplay it */
   .lvlUp {
       opacity: 0;
+  }
+
+@media all and (max-width: 1023px){
+    img{
+        margin: 0;
+    }
+}
+
+
+  @media all and (max-width: 767px){
+      h1{
+          font-size: 2rem;
+
+      }
+        /*.infinity{*/
+            /*font-size: 2rem;*/
+        /*}*/
+        p{
+            font-size: 15px;
+        }
   }
