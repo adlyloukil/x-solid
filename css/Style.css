@@ -60,8 +60,16 @@ img {
     height: 50px;
     padding: 20px;
     text-align: center;
-    background: #ddd;
     margin-top: 20px;
+    position:fixed;
+    bottom:10px;
+    left:0px;
+    background-image:radial-gradient(snow, transparent);
+    transition: 2s;
+  }
+  .footer:hover{
+    text-shadow: 0px 0px 10px green;
+    transition:0.2s;
   }
 
   /* hiding audio, you can autoplay it */
